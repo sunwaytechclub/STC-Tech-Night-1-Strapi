@@ -1,0 +1,1 @@
+# STC-Tech-Night-1-Strapi
