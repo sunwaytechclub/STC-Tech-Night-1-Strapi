@@ -2,7 +2,7 @@
 
 Welcome to STC Tech Night #1 🥳!
 
-Here, we will learn about one of the most trending tool --- Strapi! Strapi is a flexible, open-source Headless CMS that gives developers the freedom to choose their favorite tools and frameworks while also allowing editors to easily manage and distribute their content.
+Here, we will learn about one of the most trending open-source CMS --- Strapi! Strapi is a flexible, open-source Headless CMS that gives developers the freedom to choose their favorite tools and frameworks while also allowing editors to easily manage and distribute their content.
 
 Before we jump straight into the workshops, allow me to introduce ourself, do watch this short 1 minute video to know more 🎇!
 
