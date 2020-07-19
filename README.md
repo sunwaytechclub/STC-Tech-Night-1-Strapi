@@ -23,6 +23,9 @@ Without further ado, let's get started!
     - [Accessing endpoints](#accessingendpoint)
 
     1.3 [Roles and permissions](#rolesandpermissions)
+    - [Access from public](#accessfrompublic)
+
+2. [Conclusion](#conclusion)
 
 ## Demo <a name="demo"></a>
 
@@ -168,3 +171,57 @@ In this case, we are accessing from `Public` role (Request without token, coming
 ----
 
 ### Roles and permissions <a name="rolesandpermissions"></a>
+
+The issue above can be resolved by adjusting the permissions of what a request coming from `Public` can do!
+
+Let's focus on the third built-in plugin: Roles & Permissions.
+
+![roles-1](/assets/roles-1.jpg)
+
+<br>
+
+#### Access from public <a name="accessfrompublic"></a>
+
+Let's click on the `Public`, we are going to focus on the `Application` section.
+
+So what do we want to grant the access for schools? For now, we only allow the public to perform read operations.
+
+To do this, we can check the `count`, `find`, `findOne` checboxes.
+
+![roles-2](/assets/roles-2.jpg)
+
+Do you notice that when you check the checkbox, on the right side you can see a "Bound route to..."?
+
+By default, `count` operation is bounted to `/schools/count`, this means that by going to that endpoints, you will get the count of all the entries.
+
+count: `/schools/count`
+find: `/schools/`
+findOne: `/schools/:id` - the :id is to replace with the entry id
+
+Now you can hit `Save`.
+
+Let's go back to `http://localhost:1337/schools`!
+
+You should see this as the response now!
+
+![roles-3](/assets/roles-3.png)
+
+Hurray! It worked!
+
+<br>
+
+#### Roles
+
+You may refer to [https://strapi.io/documentation/3.0.0-beta.x/plugins/users-permissions.html#concept](https://strapi.io/documentation/3.0.0-beta.x/plugins/users-permissions.html#concept) for more information about this plugin!
+
+----
+
+### Conclusion <a name="conclusion"></a>
+
+There are a lot more that I did not covered in the demo above, but I do strongly recommend you to take a look into their [official documentation website](https://strapi.io/documentation/3.0.0-beta.x/getting-started/introduction.html#what-is-strapi).
+
+Complete the whole documentation will only take you probably few days, the benefits you can from learning it definitely justify the amount of time you will be spending on it! 😎
+
+if you had found any issue in the demo, do feel free to approach to us on our [Facebook page](https://facebook.com/sunwaytechclub) or open an issue [here](/issues), I will try to resolve it as soon as possible for you!
+
+And --- that sums up the session for today, I hope you like it and do feel free to approach to us to have a session just like this, but from you 🔥!
