@@ -10,6 +10,8 @@ Before we jump straight into the session, allow me to introduce ourself, do watc
 
 Without further ado, let's get started!
 
+The slides for this session is [here](https://slides.com/rainchai/deck-e89862), alternatively, you can download it [here](/slides.html)
+
 ## Table of content 📄
 
 1. [Demo](#demo)
