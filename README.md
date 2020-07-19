@@ -20,6 +20,7 @@ Without further ado, let's get started!
     - [Types of content](#typesofcontent)
     - [Creating a new collection type](#collectiontype)
     - [New entry](#newentry)
+    - [Accessing endpoints](#accessingendpoint)
 
     1.3 [Roles and permissions](#rolesandpermissions)
 
@@ -135,6 +136,10 @@ You should now see an entry on your dashboard
 
 ![api-5](/assets/api-5.jpg)
 
+<br>
+
+#### Accessing endpoints <a name="accessingendpoint"></a>
+
 You can now access the `School` model by going `http://localhost:1337/schools` (Do note it has an `s`)
 
 All of the endpoints are created following [Open API Specification](https://swagger.io/specification/#:~:text=Introduction,or%20through%20network%20traffic%20inspection.)
@@ -154,7 +159,7 @@ Oops! What is this!! 😱 Did I do anything wrongly??
 
 Haha fret not! This is actually the expected behaviour, because:
 
-> [you should receive a 403 error because you are not allowed, as Public user, to access to the articles.](https://strapi.io/documentation/3.0.0-beta.x/guides/auth-request.html#fetch-articles:~:text=you%20should%20receive%20a%20403%20error,user%2C%20to%20access%20to%20the%20articles.)
+> [you should receive a 403 error because you are not allowed, as Public user, to access to the articles (schools in our case).](https://strapi.io/documentation/3.0.0-beta.x/guides/auth-request.html#fetch-articles:~:text=you%20should%20receive%20a%20403%20error,user%2C%20to%20access%20to%20the%20articles.)
 
 By default, Strapi will block all the request from anywhere unless you specify the permissions from the role.
 
