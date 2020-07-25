@@ -12,6 +12,20 @@ Without further ado, let's get started!
 
 The slides for this session is [here](https://slides.com/rainchai/deck-e89862), alternatively, you can download it [here](/slides.html)
 
+WHAT'S INCLUDED FOR THE SESSION:
+
+- [x] Creating new data model
+- [x] Creating relationship between models
+- [x] Simple authentication
+- [x] Simple endpoint accessing
+
+WHAT'S NOT INCLUDED FOR THE SESSION:
+
+- [ ] A zero to master lecture
+- [ ] File upload
+- [ ] Overriding endpoint handler
+- [ ] Setting up with external database (Using sqllite for now)
+
 ## Table of content 📄
 
 1. [Demo](#demo)
